@@ -16,16 +16,9 @@ int main() {
     sum = num1 + num2;
     difference = num1 - num2;
     product = num1 * num2;
-
-  
-    if (num2 != 0) {
-        quotient = (float)num1 / num2;
-        printf("\nQuotient: %.2f\n", quotient);
-    } else {
-        printf("\nDivision not possible (denominator is zero).\n");
-    }
-
-
+    quotient = (float)num1 / num2;
+    
+    printf("\nQuotient: %.2f\n", quotient);
     printf("Sum: %d\n", sum);
     printf("Difference: %d\n", difference);
     printf("Product: %d\n", product);
@@ -33,3 +26,4 @@ int main() {
     return 0;
 
 }
+
