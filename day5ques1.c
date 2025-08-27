@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <math.h>  
+#include <stdio.h> 
 
 int main() {
     float principal, rate, time, SI, CI;
@@ -22,4 +21,5 @@ int main() {
 
     return 0;
 }
+
 
